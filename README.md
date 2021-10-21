@@ -3,6 +3,9 @@
 
 ## What's new!
 
+### version 0.0.11
+- Adding previous and next leap year on the result
+
 ### version 0.0.1
 - First release
 - Neat UI
