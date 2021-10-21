@@ -1,0 +1,140 @@
+:root {
+    --black: #242424;
+    --blue: #0800FF;
+    --dark-black: #333;
+    --gray: #AAA;
+    --white: #FFF;
+    --aesthetic-blue: #6FCEFF;
+    --aesthetic-pink: #FF00FF;
+}
+
+html, body {
+    margin: 0em;
+    padding: 0em;
+    border: 0em;
+    height: 100%;
+}
+
+.yr-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.yr-content {
+    display: grid;
+    margin: 0px 0px 0px 0px;
+    padding: 0em;
+    box-sizing: border-box;
+    background-color: var(--white);
+}
+
+.yr-content > .yr-header {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    min-width: 100vw;
+    box-sizing: border-box;
+}
+
+.yr-content > .yr-header > h1 {
+    margin: 0em;
+    font-family: Poppins Extra Bold;
+    font-size: clamp(24px, 64px, 96px);
+    color: var(--black);
+    animation-name: RiseUp;
+    animation-duration: 4s;
+}
+
+.yr-content > .yr-body {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    box-sizing: border-box;
+    margin: 0em;
+    padding: 0em;
+}
+
+.yr-content > .yr-body > h1 {
+    box-sizing: border-box;
+    margin: 0em;
+    padding: clamp(2em, 2em, 2em);
+    font-family: Poppins Bold;
+    font-size: clamp(12px, 24px, 36px);
+    color: var(--black);
+}
+
+.yr-content > .yr-body > input {
+    border: 0px;
+    border-bottom: solid var(--gray) 4px;
+    padding: 0.5em 0em 0.5em 0em;
+    outline: none;
+    font-family: Poppins Regular;
+    font-size: clamp(24px, 36px, 36px);
+    color: var(--gray);
+    text-align: center;
+}
+
+.yr-content > .yr-body > input:active {
+    border-bottom: solid var(--blue) 4px;
+}
+
+.yr-content > .yr-body >  input:cursor {
+    border-bottom: solid var(--blue) 4px;
+}
+
+.yr-content > .yr-body > input:focus {
+    border-bottom: solid var(--blue) 4px;
+}
+
+.yr-content > .yr-body > input:hover {
+    border-bottom: solid var(--blue) 4px;
+}
+
+not .yr-content > .yr-body > input:hover {
+    border-bottom: solid var(--gray) 4px;
+}
+
+.yr-content > .yr-body > p {
+    margin: 0em 1em 0em 1em;
+    padding: clamp(1em, 1em, 1em);
+    font-family: Poppins Bold;
+    font-size: clamp(24px, 36px, 36px);
+    color: var(--black);
+}
+
+.yr-content > .yr-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: clamp(10vh, 10vh, 10vh);
+}
+
+.yr-content > .yr-footer::before {
+    content: "";
+    justify-self: center;
+    align-self: center;
+    border-radius: 24px;
+    width: clamp(24%, 30%, 50%);
+    height: 1px;
+    background-color: var(--gray);
+}
+
+.yr-content > .yr-footer::after {
+    content: "";
+    justify-self: center;
+    align-self: center;
+    border-radius: 24px;
+    width: clamp(24%, 30%, 50%);
+    height: 1px;
+    background-color: var(--gray);
+}
+
+.yr-content > .yr-footer > small {
+    padding: 0em 1em 0em 1em;
+    font-family: Poppins Thin;
+    font-size: clamp(20px, 20px, 24px);
+    color: var(--gray);
+}
