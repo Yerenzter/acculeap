@@ -1,4 +1,4 @@
-//I Love Programming but I love MY GRIFLFIREND/WIFEY more but in most of all things.
+//I Love Programming but I love MY GIRLFRIEND/WIFEY more but in most of all things.
 
 OnResult = () => {
     getYear = document.getElementById("yr-text").value;
