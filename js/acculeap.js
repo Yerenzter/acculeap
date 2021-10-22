@@ -6,5 +6,5 @@ OnResult = () => {
     prevLeapYear = getYear - 4;
     nextLeapYear = Number(getYear) + 4;
     document.getElementById("yr-result").innerHTML = getYear == '' ? '...' : getYear % 4 == 0 && getYear % 100 != 0 || getYear % 400 == 0 ? getYear + " is a leap year." : getYear + " is not a leap year.";
-    document.getElementById("yr-result001").innerHTML = getYear % 4 != 0 && getYear % 100 != 1 || getYear % 400 != 0 ? "Oops! seems the frog aren't leaping yet!" : getYear == '' ? '...' :  "previous leap year: " + prevLeapYear + " next leap year: " + nextLeapYear;
+    document.getElementById("yr-result001").innerHTML = getYear == '' ? '...' : getYear % 4 == 0 && getYear % 100 != 0 || getYear % 400 == 0 ? "Previous leap year: " + prevLeapYear + " Next leap year: " + nextLeapYear : "Oops! seems the frogs aren't leaping yet.";
 }
