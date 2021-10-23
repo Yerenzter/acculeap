@@ -105,6 +105,13 @@ not .yr-content > .yr-body > input:hover {
     color: var(--black);
 }
 
+.yr-content > .yr-body > a {
+    font-family: Poppins Regular;
+    font-size: clamp(12px, 12px, 12px);
+    text-decoration: none;
+    color: var(--blue);
+}
+
 .yr-content > .yr-footer {
     display: flex;
     justify-content: center;
