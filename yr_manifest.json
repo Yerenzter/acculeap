@@ -4,7 +4,7 @@
     "description": "The accurate, user-friendly and open-source leap year calculation made by Yerenzter.",
     "start_url": "/acculeap",
     "theme_color": "var(--blue)",
-    "background_color": "var(--aesthetic-blue),
+    "background_color": "var(--aesthetic-blue)",
     "icons": [{
         "src": "https://github.com/Yerenzter/yerenzter.github.io/blob/main/omg/yr_favicon.png",
         "sizes": "128x128",
